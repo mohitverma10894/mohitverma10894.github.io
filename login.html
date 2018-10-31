@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+    <link rel="icon" href="../Blackghost/favicon/favicon.jpg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="animation.css">
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        body{
+            background: white url("img/image1.jpeg") no-repeat scroll top left ;
+        }
+        .form-div{
+            width: 400px;
+            text-align:center;
+            margin: 50px auto;
+            background-color:rgba(0,0,0,0.7);
+            box-shadow: 0 0 10px cyan;
+            border-radius: 15px;
+        }
+        .form-div img{
+            width: 100px;
+            margin-top: -50px;
+            border-radius: 50px;
+        }
+        .form-div h2{
+
+            margin: 50px;
+            color: #00b0ff;
+            font-size: 30px;s
+
+        }
+        input[type="text"],input[type="password"]{
+            text-align: center;
+            border: none;
+            background: transparent;
+            border-bottom: 3px solid #1C2A48;
+            color: white;
+            outline: none;
+            margin: 7px;
+          }
+        ::placeholder{
+            color: lightgray;
+            font-size: 15px;
+
+        }
+        input[type="submit"]{
+            background-color: #1C2A48;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            margin: 40px;
+            box-shadow:0 0 10px  ;
+            padding: 10px;
+        }
+        input[type="text"]:focus,input[type="password"]:focus
+        {
+            border-bottom: 3px solid #00b0ff;
+        }
+        input[type="submit"]:hover{
+            background-color: #00b0ff;
+        }
+
+    </style>
+</head>
+<body>
+<div class="form-div animated zoomInUp">
+    <img src="../../Blackghost/favicon/favicon.jpg" height="100" width="100"/>
+
+    <h2>Welcome to Blackghost</h2>
+    <form >
+    <input type="text" name="username" placeholder="UserName">
+    <input type="password" name="password" placeholder="Password">
+        <input type="submit" value="Login">
+        <input type="submit" value="SignUp">
+    </form>
+</div>
+</body>
+</html>
