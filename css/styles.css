@@ -4,7 +4,14 @@ body{
     margin: 0;
 }
 /* ------------ Main Header ----------- */
+.main-header{
 
+    font-family: "Viner Hand ITC";
+    font-size: 30px;
+    margin-top: -50px;
+    margin-bottom: -55px;
+
+}
 /* ---------- Main Navigationbar ------------- */
 .main-nav{
     background-color: black;
