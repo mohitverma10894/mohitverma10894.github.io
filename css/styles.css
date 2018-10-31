@@ -4,13 +4,6 @@ body{
     margin: 0;
 }
 /* ------------ Main Header ----------- */
-.main-header{
-    
-    background-size: cover;
-    padding: 15px;
-    color: white;
-    text-align: right;
-}
 
 /* ---------- Main Navigationbar ------------- */
 .main-nav{
